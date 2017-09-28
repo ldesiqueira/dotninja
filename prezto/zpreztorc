@@ -1,0 +1,38 @@
+zstyle ':prezto:load' pmodule \
+  'environment' \
+  'terminal' \
+  'editor' \
+  'history' \
+  'directory' \
+  'spectrum' \
+  'utility' \
+  'ssh' \
+  'completion' \
+  'homebrew' \
+  'osx' \
+  'ruby' \
+  'rails' \
+  'git' \
+  'syntax-highlighting' \
+  'history-substring-search' \
+  'prompt'
+
+zstyle ':prezto:module:editor' key-bindings 'vi'
+
+zstyle ':prezto:module:syntax-highlighting' highlighters \
+  'main' \
+  'brackets' \
+  'pattern' \
+  'cursor' \
+  'root'
+
+zstyle ':prezto:module:terminal' auto-title 'yes'
+
+# set ssh identities to load into the agent
+zstyle ':prezto:module:ssh:load' identities 'id_rsa'
+
+# set the theme
+zstyle ':prezto:module:prompt' theme 'skwp'
+
+# enable reverse r search
+bindkey "^R" history-incremental-pattern-search-backward
