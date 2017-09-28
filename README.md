@@ -1,0 +1,2 @@
+# dotninja
+For Ninjaing
