@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/luis.desiqueira/.dotninja/.zprezto'
+let g:netrw_dirhist_2='/Users/luis.desiqueira/.dotninja'
+let g:netrw_dirhist_3='/Users/luis.desiqueira/.vim/settings'
+let g:netrw_dirhist_4='/Users/luis.desiqueira/.vim'
+let g:netrw_dirhist_5='/Users/luis.desiqueira/.zprezto'
+let g:netrw_dirhist_6='/Users/luis.desiqueira/code/jobvite/python/spotinst_make_api_scale_target'
+let g:netrw_dirhist_7='/Users/luis.desiqueira/code/jobvite/python/spotinst_make_api_scale_target/elastigroups'
